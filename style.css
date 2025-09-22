@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    padding:50px;
+}
+nav{
+    text-align: center;
+}
+nav img{
+         width:100px;
+         height:100px;
+         
+}
+nav h3{
+      font-size: 30px;
+      color:brown;
+}
+.nav a{
+    text-decoration: none;
+    padding:30px;
+    color:brown;
+    position:sticky;
+    top:0;
+}
+.nav{
+    margin-top:40px;
+    text-align: center;
+    padding:30px;
+    position:sticky;
+    top:0;
+    background-color: white;
+}
+
+
+.content-1 img{
+    width:400px;
+    height:350px; 
+    padding:10px;
+}
+.content-1 p{
+    width:600px;
+    margin-top: 40px;
+    margin-left:30px;
+    vertical-align:top;
+    line-height: 30px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.content-1 p, .content-1 img{
+    display:inline-block;
+}
+.content-1{
+       background-color: brown;
+}
+
+.content-2 img{
+    width:250px;
+    height:300px;
+    margin-top:20px;
+    display:inline-block;
+    margin-left:60px;
+}
+.content-2 h5{
+    width:250px;
+    margin-top: 10px;
+    margin-left:60px;
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.content-2 .image {
+    display: inline-block;
+    vertical-align: top;
+}
+.content-3 .imga, .content-3 .cont{
+    display: inline-block;
+    margin-top: 40px;
+   
+}
+.content-3{
+   margin-top:30px;
+   background-color: brown;  
+   overflow: hidden;
+  
+}
+.content-3 .cont h5{
+    line-height: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width:600px;
+    font-size: 16px;
+    color: white;
+
+    
+}
+.content-3 .cont{
+   margin-left: 20px;
+   vertical-align: top;
+   margin-top: 90px;
+}
+.imga img{
+    margin-bottom: 30px;
+    width:400px;
+    height:350px;
+    padding-top:10px;
+    padding:10px;
+}
+
+.footer{
+     clear:both; 
+     background-color: brown;
+      color:white;
+       padding:50px 100px 90px 70px; 
+       margin-top:50px;
+     } 
+     
+.footer .footer-content{
+     display:inline-block; 
+     width:30%; 
+     vertical-align:top; 
+     margin-left:3%;
+     } 
+     
+.footer-content p{
+     margin-top:10px; 
+    } 
+.ic i{
+     display:inline-block; 
+     margin-top:5px;
+     } 
+.footer .footer-content f-2{
+     margin-left:10px;
+     } 
+.i{
+     text-align: center;
+      margin-top: 50px; 
+    }
+
+.footer .footer-content a{
+    text-decoration: none;
+    color:white;
+    display: block;
+    margin-top:10px;
+    margin-left:5px;
+
+}    
